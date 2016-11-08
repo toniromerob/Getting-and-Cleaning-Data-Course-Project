@@ -47,3 +47,7 @@ Good luck!
 4. Change the value of **wd_location** to your selected wd
 5. Run script run_analysis.R
 
+## Output
+The run_analysis.R script will output 2 files:
+  - "tidy_data_table_1.txt"
+  - "tidy_data_table_2.txt"
