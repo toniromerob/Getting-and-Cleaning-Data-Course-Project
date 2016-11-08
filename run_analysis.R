@@ -102,10 +102,10 @@ data_table <- cbind(data_table[1:2], data_table1)
 rm(data_table1)
 
 # Create a file with the FIRST tidy data set
-write.table(data_table, file = "tidy_data_table_1.txt")
+write.table(data_table, file = "tidy_data_table_1.txt", row.names = FALSE)
 
 ### Part 5
 tidy_data_table <- aggregate(. ~ subject + activity, data_table, mean)
 
 # Create a file with the SECOND tidy data set
-write.table(tidy_data_table, file = "tidy_data_table_2.txt")
+write.table(tidy_data_table, file = "tidy_data_table_2.txt", row.names = FALSE)
