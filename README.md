@@ -49,5 +49,6 @@ Good luck!
 
 ## Output
 The run_analysis.R script will output 2 files:
-  - "tidy_data_table_1.txt"
-  - "tidy_data_table_2.txt"
+
+- "tidy_data_table_1.txt"
+- "tidy_data_table_2.txt"
