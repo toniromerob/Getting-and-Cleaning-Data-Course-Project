@@ -127,7 +127,7 @@ data_table <- cbind(data_table[1:2], data_table1)
 rm(data_table1)
 
 # Create a file with the FIRST tidy data set
-write.table(data_table, file = "tidy_data_table_1.txt")
+write.table(data_table, file = "tidy_data_table_1.txt", row.names = FALSE)
 ```
 
 ### Part 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
@@ -136,5 +136,5 @@ write.table(data_table, file = "tidy_data_table_1.txt")
 tidy_data_table <- aggregate(. ~ subject + activity, data_table, mean)
 
 # Create a file with the SECOND tidy data set
-write.table(tidy_data_table, file = "tidy_data_table_2.txt")
+write.table(tidy_data_table, file = "tidy_data_table_2.txt", row.names = FALSE)
 ```
