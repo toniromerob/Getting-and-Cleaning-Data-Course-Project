@@ -131,4 +131,5 @@ rm(data_table1)
 
 ```
 tidy_data_table <- aggregate(. ~ subject + activity, data_table, mean)
+write.table(tidy_data_table, file = "tidy_data_table.txt")
 ```
