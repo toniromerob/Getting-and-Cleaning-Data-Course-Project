@@ -1,6 +1,3 @@
-# Getting-and-Cleaning-Data-Course-Project
-Course Project for the Getting and Cleaning Data Course by Johns Hopkins University on Coursera.org
-
 # Peer-graded Assignment: Getting and Cleaning Data Course Project
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
