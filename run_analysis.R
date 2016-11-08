@@ -103,7 +103,6 @@ rm(data_table1)
 
 # Create a file with the FIRST tidy data set
 write.table(data_table, file = "tidy_data_table_1.txt")
-read.table("tidy_data_table_1.txt")
 
 ### Part 5
 tidy_data_table <- aggregate(. ~ subject + activity, data_table, mean)
