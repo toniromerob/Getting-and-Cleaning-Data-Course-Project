@@ -1,5 +1,5 @@
-title | author | date | output
------------- | -------------
+title                                    | author               | date       | output
+---------------------------------------- | -------------------- | ---------- | --------------------------------------------
 Getting and Cleaning Data Course Project | Antoni Romero Blanch | 11/08/2016 | tidy_data_table_1.txt; tidy_data_table_2.txt
 
 
