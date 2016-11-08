@@ -104,3 +104,7 @@ rm(data_table1)
 ### Part 5
 tidy_data_table <- aggregate(. ~ subject + activity, data_table, mean)
 write.table(tidy_data_table, file = "tidy_data_table.txt")
+
+# We could read the tidy table 
+data <- read.table("tidy_data_table.txt", header = TRUE)
+View(data)
